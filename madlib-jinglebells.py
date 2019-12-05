@@ -1,21 +1,3 @@
-##print ("Hello world")
-#message = "This note will self-destruct in 5...4...3...2..1"
-#print (message)
-#message = "Boom!"
-#print (message)
-#dictionary = keyword and value
-#print (4*5)
-#print ("4"+"5")
-#message = (29-105)
-#print (message)
-# yourdate = input("What is todays date")
-#calc_date = (29-int(yourdate))
-
-#if calc_date >= 1:
-  #print ("Get excited - Thanksgiving is "+str(calc_date)+" days away")
-  #if calc_date < -10:
-    #print ("Hmm...I think you're messing with me")
-#else: print("Yikes - Thanksgiving has passed") '''
 import datetime
 import random
 d = datetime.datetime.today()
@@ -47,7 +29,7 @@ while len(adjective_list) < adjective_target:
     adjective_item = input( random.choice(cheers)+", let's have another adjective: ")
     adjective_list.append(adjective_item)
 if len(adjective_list)== adjective_target:
-  print("Okay, here comes your Madlib.")
+  print("Okay, here comes your Madlib. Be forewarned: it's about to get random!")
   print("'To the tune of Jingle Bells':")
   print(random.choice(noun_list)+" through the "+random.choice(noun_list))
   print(", in a one-"+random.choice(noun_list)+" open "+random.choice(noun_list)) 
@@ -55,19 +37,3 @@ if len(adjective_list)== adjective_target:
   print(random.choice(noun_list)+" on "+random.choice(noun_list)+"-tails"+random.choice(verb_list)+", making "+random.choice(noun_list)+ "s bright.") 
   print("What fun it is to "+random.choice(verb_list)+" and "+random.choice(verb_list)+" a "+random.choice(noun_list)+"ing song tonight!")
 print ("This silly tune was written by "+yourname+" on "+str(d))
-
-
-#shopList = [] 
-#maxLengthList = 6
-#while len(shopList) < maxLengthList:
-    #item = input("Enter your Item to the List: ")
-    #shopList.append(item)
-#print ("That's your Shopping List")
-#print (shopList)
-#yourname = input("Let's begin with your name: ")
-#noun = input("Now let's have a noun: ")
-#proper-noun = input("")
-#adjective = input("How about an adjective? ")
-#verb = input("Gimme a verb in the past-tense! ")
-
-#print ("There once was a "+noun+" from Valhalla, who "+verb+" with "+adjective+". This silly story was composed by "+yourname+ " on "+str(d))
